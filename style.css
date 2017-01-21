@@ -16,12 +16,12 @@ body
 
 /* Chrome, Safari, Opera */
 @-webkit-keyframes mymove {
-    50% {background: blue bottom right/50px 50px;}
+    50% {background: #3d3d5c bottom right/50px 50px;}
 }
 
 /* Standard syntax */
 @keyframes mymove {
-    50% {background: blue bottom right/50px 50px;}
+    50% {background: #3d3d5c bottom right/50px 50px;}
 }
 
 .anime
