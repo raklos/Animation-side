@@ -9,7 +9,7 @@ body
 #myDIV {
     width: 300px;
     height: 200px;
-    background: red url('smiley.gif') no-repeat top left/5px 5px;
+    background: #7575a3 url('smiley.gif') no-repeat top left/5px 5px;
     -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
     animation: mymove 5s infinite;
 }
