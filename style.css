@@ -1,41 +1,40 @@
-body
-{
+body {
 	background-color: #303030;
 	color: #ffffff;
 	font-family: 'Lato', sans-serif;
-	font-size:20px;
+	font-size: 20px;
+
 }
 
 #myDIV {
     width: 500px;
-    height: 300px;
-    background: #ffffff url('smiley.gif') no-repeat top left/5px 5px;
-    -webkit-animation: mymove 1000s infinite; /* Chrome, Safari, Opera */
-    animation: mymove 1000s infinite;
+    height: 500px;
+    background: #cc6699 url('smiley.gif') no-repeat top left/50px 50px;
+    -webkit-animation: mymove 1s infinite;  /*Chrome, Safari, Opera */
+    animation: mymove 4s infinite;
 }
 
 /* Chrome, Safari, Opera */
 @-webkit-keyframes mymove {
-    100% {background: #ffffff bottom right/50px 50px;}
+    100% {background: #009933 bottom right/50px 50px;}
 }
 
 /* Standard syntax */
 @keyframes mymove {
-    100% {background: #000000 bottom right/50px 50px;}
+    100% {background: #ff9966 bottom right/50px 50px;}
 }
 
-.anime
-{
-	color: #ff00ff;
-	font-size: 300px;
+.anime {
+	margin-left: 30%;
 }
 
-.container
-{
+.container {
 	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
-.lul
-{
-	color: #006699;
+.txt {
+	color: #e6b3ff;
+	text-align: center;
 }
