@@ -16,14 +16,14 @@ body {
 }
  /* Chrome, Safari, Opera */
 @-webkit-keyframes mymove {
-	50% {background: #ffff00 url('smiley.gif') no-repeat bottom right/50px 50px;}
-	100% {background: #ff00ff url('smiley.gif') no-repeat top left/50px 50px;}
+	50% {background: #ffff00 url('smiley.gif') no-repeat middle middle/50px 50px;}
+	100% {background: #ff00ff url('smiley.gif') no-repeat middle middle/50px 50px;}
 }
 
 /* Standard syntax */
 @keyframes mymove {
-	50% {background: #ffff00 url('smiley.gif') no-repeat bottom right/50px 50px;}
-	100% {background: #ff00ff url('smiley.gif') no-repeat top left/50px 50px;}
+	50% {background: #ffff00 url('smiley.gif') no-repeat middle middle/50px 50px;}
+	100% {background: #ff00ff url('smiley.gif') no-repeat middle middle/50px 50px;}
 }
 
 h1 {
