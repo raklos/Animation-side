@@ -16,20 +16,20 @@ body {
 }
  /* Chrome, Safari, Opera */
 @-webkit-keyframes mymove {
-	0% {background: #b30086 url('smiley.gif') no-repeat top left/50px 50px; width: 50px; height: 50px;}
-	25% {background: #ff99e6 url('smiley.gif') no-repeat bottom right/50px 50px; width: 1100px; height: 480px;}
-	50% {background: #ff99e6 url('smiley.gif') no-repeat bottom right/50px 50px; width: 50px; height: 50px; }
-	75% {background: #ff99e6 url('smiley.gif') no-repeat bottom right/50px 50px; width: 1100px; height: 480px;}
-	100% {background: #b30086 url('smiley.gif') no-repeat top left/50px 50px; width: 50px; height: 50px}
+	0% {background: #b30086 url('smiley.gif') no-repeat top left/50px 50px; width: 50px;}
+	25% {background: #ff99e6 url('smiley.gif') no-repeat bottom right/50px 50px; width: 1100px;}
+	50% {background: #ff99e6 url('smiley.gif') no-repeat bottom right/50px 50px; width: 50px;}
+	75% {background: #ff99e6 url('smiley.gif') no-repeat bottom right/50px 50px; width: 1100px;}
+	100% {background: #b30086 url('smiley.gif') no-repeat top left/50px 50px; width: 50px;}
 }
 
 /* Standard syntax */
 @keyframes mymove {
-	0% {background: #b30086 url('smiley.gif') no-repeat top left/50px 50px; top: 0px; width: 50px; height: 50px;}
-	25% {background: #ff99e6 url('smiley.gif') no-repeat bottom right/50px 50px; width: 1100px; height: 480px;}
-	50% {background: #ff99e6 url('smiley.gif') no-repeat bottom right/50px 50px; width: 50px; height: 50px; }
-	75% {background: #ff99e6 url('smiley.gif') no-repeat bottom right/50px 50px; width: 1100px; height: 480px;}
-	100% {background: #b30086 url('smiley.gif') no-repeat top left/50px 50px; top: 0px; width: 50px; height: 50px;}
+	0% {background: #b30086 url('smiley.gif') no-repeat top left/50px 50px; top: 0px; width: 50px;}
+	25% {background: #ff99e6 url('smiley.gif') no-repeat bottom right/50px 50px; width: 1100px;}
+	50% {background: #ff99e6 url('smiley.gif') no-repeat bottom right/50px 50px; width: 50px;}
+	75% {background: #ff99e6 url('smiley.gif') no-repeat bottom right/50px 50px; width: 1100px;}
+	100% {background: #b30086 url('smiley.gif') no-repeat top left/50px 50px; top: 0px; width: 50px;}
 }
 
 h1 {
