@@ -1,6 +1,6 @@
 body {
 	background-color: #303030;
-	color: #ffffff;
+	color: #66ffff;
 	font-family: 'Lato', sans-serif;
 	font-size: 20px;
 
@@ -9,23 +9,28 @@ body {
 #myDIV {
     width: 500px;
     height: 500px;
-    background: #cc6699 url('smiley.gif') no-repeat top left/50px 50px;
-    -webkit-animation: mymove 1s infinite;  /*Chrome, Safari, Opera */
-    animation: mymove 4s infinite;
+    background: #ffffff url('smiley.gif') no-repeat top left/0px0px;
+    -webkit-animation: mymove 30s infinite;  /*Chrome, Safari, Opera */
+    animation: mymove 30s infinite;
 }
-
-/* Chrome, Safari, Opera */
+ /* Chrome, Safari, Opera */
 @-webkit-keyframes mymove {
-    100% {background: #009933 bottom right/50px 50px;}
+    50% {background: #ffffff url('smiley.gif') no-repeat bottom right/50px 50px;}
+	100% {background: #ffffff url('smiley.gif') no-repeat top left/0px 0px;}
 }
 
 /* Standard syntax */
 @keyframes mymove {
-    100% {background: #ff9966 bottom right/50px 50px;}
+    50% {background: #ffffff url('smiley.gif') no-repeat bottom right/50px 50px;}
+	100% {background: #ffffff url('smiley.gif') no-repeat top left/0px 0px;}
+}
+
+h1 {
+	margin-bottom: 50px;
 }
 
 .anime {
-	margin-left: 30%;
+	margin-left: inherit;
 }
 
 .container {
@@ -35,6 +40,6 @@ body {
 }
 
 .txt {
-	color: #e6b3ff;
+	color: #66ffff;
 	text-align: center;
 }
