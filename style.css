@@ -43,6 +43,10 @@ h1 {
 	text-align: center;
 }
 
+.borders {
+	border-style: solid;
+}
+
 .txt {
 	color: #66ffff;
 	text-align: center;
