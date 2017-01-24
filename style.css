@@ -3,12 +3,12 @@ body {
 	color: #66ffff;
 	font-family: 'Lato', sans-serif;
 	font-size: 20px;
-
 }
 
+/* Animation with smiley face */
 #myDIV {
     width: 500px;
-    height: 500px;
+    height: 100px;
 	background: #ff00ff url('smiley.gif') no-repeat top left/50px 50px;
     -webkit-animation: mymove 10s infinite;  /*Chrome, Safari, Opera */
     animation: mymove 10s infinite;
@@ -40,6 +40,7 @@ h1 {
 	text-align: center;
 	margin-left: 10%;
 	margin-right: 10%;
+	text-align: center;
 }
 
 .txt {
