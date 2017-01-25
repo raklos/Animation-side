@@ -12,7 +12,7 @@ body {
 	background: #ff00ff url('smiley.gif') no-repeat top left/50px 50px;
     -webkit-animation: mymove 10s infinite;  /*Chrome, Safari, Opera */
     animation: mymove 10s infinite;
-	margin-left: 40%;
+	margin: auto;
 }
  /* Chrome, Safari, Opera */
 @-webkit-keyframes mymove {
@@ -43,7 +43,7 @@ h1 {
 }
 
 .border {
-	margin-top: 50px;
+	margin: 50px 50px 0px;
 	border-style: solid;
 	border-width: 0px 100px 2px;
 	border-color: #44dddd;
@@ -52,9 +52,9 @@ h1 {
 }
 
 .txt {
-	margin-top: 50px;
+	margin: 50px 50px 0px;
 	color: #66ffff;
 	text-align: center;
-	font-size: 12px;
+	font-size: 14px;
 	border: 1px solid;
 }
