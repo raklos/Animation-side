@@ -56,6 +56,5 @@ h1 {
 	color: #66ffff;
 	text-align: center;
 	font-size: 12px;
-	border-style: solid;
-	border-margin: 50px;
+	border: 1px solid;
 }
