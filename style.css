@@ -17,18 +17,18 @@ body {
  /* Chrome, Safari, Opera */
 @-webkit-keyframes mymove {
 	0% {background: #b30086 url('smiley.gif') no-repeat top left/50px 50px; width: 50px;}
-	25% {background: #ff99e6 url('smiley.gif') no-repeat bottom right/50px 50px; width: 250px;}
+	25% {background: #ff99e6 url('smiley.gif') no-repeat bottom right/50px 50px; width: 400px;}
 	50% {background: #b30086 url('smiley.gif') no-repeat bottom right/50px 50px; width: 50px;}
-	75% {background: #ff99e6 url('smiley.gif') no-repeat bottom right/50px 50px; width: 250px;}
+	75% {background: #ff99e6 url('smiley.gif') no-repeat bottom right/50px 50px; width: 400px;}
 	100% {background: #b30086 url('smiley.gif') no-repeat top left/50px 50px; width: 50px;}
 }
 
 /* Standard syntax */
 @keyframes mymove {
 	0% {background: #b30086 url('smiley.gif') no-repeat top left/50px 50px; top: 0px; width: 50px;}
-	25% {background: #ff99e6 url('smiley.gif') no-repeat bottom right/50px 50px; width: 250px;}
+	25% {background: #ff99e6 url('smiley.gif') no-repeat bottom right/50px 50px; width: 400px;}
 	50% {background: #b30086 url('smiley.gif') no-repeat bottom right/50px 50px; width: 50px;}
-	75% {background: #ff99e6 url('smiley.gif') no-repeat bottom right/50px 50px; width: 250px;}
+	75% {background: #ff99e6 url('smiley.gif') no-repeat bottom right/50px 50px; width: 400px;}
 	100% {background: #b30086 url('smiley.gif') no-repeat top left/50px 50px; top: 0px; width: 50px;}
 }
 
@@ -38,12 +38,10 @@ h1 {
 
 .container {
 	text-align: center;
-	margin-left: 10%;
-	margin-right: 10%;
 }
 
 .border {
-	margin: 50px 50px 0px;
+	margin: 50px 0px 0px;
 	border-style: solid;
 	border-width: 0px 100px 2px;
 	border-color: #44dddd;
@@ -52,7 +50,7 @@ h1 {
 }
 
 .txt {
-	margin: 50px 50px 0px;
+	margin: 50px 0px 0px;
 	color: #66ffff;
 	text-align: center;
 	font-size: 14px;
