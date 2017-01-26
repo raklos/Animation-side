@@ -13,6 +13,7 @@ body {
     -webkit-animation: mymove 10s infinite;  /*Chrome, Safari, Opera */
     animation: mymove 10s infinite;
 	margin: auto;
+	margin-bottom: 50px;
 }
  /* Chrome, Safari, Opera */
 @-webkit-keyframes mymove {
@@ -46,7 +47,12 @@ h1 {
 	border-width: 0px 100px 2px;
 	border-color: #44dddd;
 	border-radius:5px;
-	
+	margin-bottom: 50px;
+}
+
+.stborder {
+	border: solid #666600;
+	margin-bottom: 50px;
 }
 
 .txt {
@@ -55,4 +61,11 @@ h1 {
 	text-align: center;
 	font-size: 14px;
 	border: 1px solid;
+}
+
+.selector {
+	
+	border-color: #aaaaaa;
+	border-style: solid;
+	margin-bottom: 50px;
 }
