@@ -64,7 +64,8 @@ h1 {
 	color: #66ffff;
 	text-align: center;
 	font-size: 14px;
-	border: 1px solid;
+	border: solid #009999;
+	padding: 25px;
 }
 
 .selector {
