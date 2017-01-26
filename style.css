@@ -47,12 +47,16 @@ h1 {
 	border-width: 0px 100px 2px;
 	border-color: #44dddd;
 	border-radius:5px;
-	margin-bottom: 50px;
+	margin: 0px 30% 50px;
+	
 }
 
 .stborder {
 	border: solid #ff6600;
-	margin-bottom: 50px;
+	margin: 0px 30% 50px;
+	
+	padding: 50px 50px;
+	
 }
 
 .txt {
