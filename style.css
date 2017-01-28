@@ -71,7 +71,6 @@ h1 {
 }
 
 .selector {
-	
 	border-color: #aaaaaa;
 	border-style: solid;
 	margin-bottom: 50px;
@@ -82,10 +81,12 @@ h1 {
 	width: 50%;
 	background: #006699;
 	margin: auto;
+	margin-bottom: 50px;
 }
 
 .home_bar {
-	height: 25px;
+	height: 30px;
 	background: #0077aa;
-	margin-bottom: 50px;
+	margin-bottom: 1px;
+	
 }
