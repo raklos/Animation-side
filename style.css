@@ -73,7 +73,7 @@ h1 {
 .selector {
 	border-color: #aaaaaa;
 	border-style: solid;
-	width: 1000px;
+	width: 994px;
 	margin-bottom: 50px;
 }
 
@@ -86,6 +86,10 @@ h1 {
 }
 
 .button {
+	
+}
+
+.button > a {
 	background: #0077aa;
 	width: 248px;
 	float: left;
@@ -93,12 +97,14 @@ h1 {
 	line-height: 200%;
 	border-right: dashed #ffffff 1px;
 	text-decoration: none;
+	color: #000000;
+	
 }
 
-.button:hover {
-	background: #005588;
+.button > a:hover {
+	background: #ffffff;
 }
 
-.button1 {
+.button1 > a {
 	border-left: dashed #ffffff 1px;
 }
