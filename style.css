@@ -74,3 +74,9 @@ h1 {
 	border-style: solid;
 	margin-bottom: 50px;
 }
+
+.rectangle {
+	height: 100px;
+	max-width: 500px;
+	background: #006699;
+}
