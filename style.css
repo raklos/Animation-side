@@ -91,7 +91,12 @@ h1 {
 	float: left;
 	display: block;
 	line-height: 200%;
-	border-right: dashed #ffffff 1px;	
+	border-right: dashed #ffffff 1px;
+	text-decoration: none;
+}
+
+.button:hover {
+	background: #005588;
 }
 
 .button1 {
