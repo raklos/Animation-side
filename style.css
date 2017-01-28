@@ -89,11 +89,11 @@ h1 {
 }
 
 .button {
-	
+	margin-bottom: 50px;
 }
 
 .button > a {
-	background: #0077aa;
+	background: #00aadd;
 	width: 198px;
 	float: left;
 	display: block;
@@ -101,11 +101,12 @@ h1 {
 	border-right: dashed #ffffff 1px;
 	text-decoration: none;
 	color: #000000;
-	margin-bottom: 50px;
+	
 }
 
 .button > a:hover {
 	background: #ffffff;
+	color: #aa0000;
 }
 
 .button1 > a {
