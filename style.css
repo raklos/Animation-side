@@ -84,9 +84,7 @@ h1 {
 	margin-bottom: 50px;
 }
 
-.home_bar {
-	height: 30px;
+.button {
 	background: #0077aa;
-	margin-bottom: 1px;
-	
+	width: 25%;
 }
