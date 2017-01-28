@@ -77,7 +77,12 @@ h1 {
 
 .rectangle {
 	height: 100px;
-	max-width: 500px;
+	width: 50%;
 	background: #006699;
 	margin: auto;
+}
+
+.home_bar {
+	height: 25px;
+	background: #0077aa;
 }
