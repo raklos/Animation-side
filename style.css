@@ -100,7 +100,7 @@ h1 {
 	margin-bottom: 50px;
 }
 
-.button > a {
+.button > a:link {
 	background: #00aadd;
 	width: 198px;
 	float: left;
@@ -112,9 +112,19 @@ h1 {
 	margin-bottom: 50px;
 }
 
+.button > a:visited {
+	background: #006699;
+	color: white;
+}
+
 .button > a:hover {
 	background: #ffffff;
 	color: #aa0000;
+}
+
+.button > a:active {
+	background: #dddddd;
+	color: black;
 }
 
 .button1 > a {
