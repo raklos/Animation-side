@@ -67,13 +67,14 @@ h1 {
 .txt {
 	margin: 50px 0px 0px;
 	color: #66ffff;
-	text-align: center;
+	text-align: justify;
 	font-size: 14px;
 	border: solid #009999;
 	padding: 25px;
 	text-indent: 50px;
 	letter-spacing: 1.5px;
 	line-height: 1.3;
+	
 }
 
 .selector {
