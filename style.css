@@ -134,5 +134,23 @@ h1 {
 ol, ul {
 	text-align: left;
 	color: white;
-	text-indent: 10px;
+	list-style-position: inside;
+	text-indent: 1px; 
+	font-size: 150%;	
+}
+
+ul.a {
+    list-style-type: circle;
+}
+
+ul.b {
+    list-style-type: square;
+}
+
+ol.c {
+    list-style-type: upper-roman;
+}
+
+ol.d {
+    list-style-type: lower-alpha;
 }
