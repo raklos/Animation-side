@@ -130,3 +130,7 @@ h1 {
 .button1 > a {
 	border-left: dashed #ffffff 1px;
 }
+
+ol, ul {
+	text-align: left;
+}
