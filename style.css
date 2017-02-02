@@ -171,7 +171,7 @@ ol.c {
 
 ol.d {
     list-style-type: lower-alpha;
-	 list-style-type: none;
+	list-style-type: none;
 }
 /* ################ 
 				Tables
@@ -194,6 +194,7 @@ td {
 
 table {
 	border-collapse: collapse;
-	width: 100%;
-	background:
+	width: 90%;
+	background: #602020;
+	margin: auto;
 }
