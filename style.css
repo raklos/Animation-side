@@ -178,4 +178,13 @@ ol.d {
 	################ */
 table, td, th {
 	border: 1px solid white;
+	
+}
+
+td, th {
+	padding: 5px;
+}
+
+table {
+	border-collapse: collapse;
 }
