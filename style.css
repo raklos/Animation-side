@@ -192,9 +192,17 @@ td {
 	vertical-align: bottom;	
 }
 
+th {
+	background: #a6004c;
+}
+
 table {
 	border-collapse: collapse;
 	width: 90%;
-	background: #204060;
+	background: #0066cc;
 	margin: auto;
+}
+/* Specific code line to change color in secound horizontal line in table */
+tr:nth-child(even) {
+	background-color: #0044aa;
 }
