@@ -189,7 +189,8 @@ td, th {
 
 td {
 	height: 25px;
-	vertical-align: bottom;	
+	vertical-align: bottom;
+	color: black;	
 }
 
 th {
@@ -199,10 +200,10 @@ th {
 table {
 	border-collapse: collapse;
 	width: 90%;
-	background: #0066cc;
+	background: #ffffff;
 	margin: auto;
 }
 /* Specific code line to change color in secound horizontal line in table */
 tr:nth-child(even) {
-	background-color: #0044aa;
+	background-color: #f2f2f2;
 }
