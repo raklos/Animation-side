@@ -173,3 +173,9 @@ ol.d {
     list-style-type: lower-alpha;
 	 list-style-type: none;
 }
+/* ################ 
+				Tables
+	################ */
+table, tr, th {
+	border: 1px solid white;
+}
