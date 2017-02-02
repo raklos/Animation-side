@@ -178,13 +178,19 @@ ol.d {
 	################ */
 table, td, th {
 	border: 1px solid white;
-	
+	padding: 10px;
 }
 
 td, th {
-	padding: 5px;
+	height: 40px;
+}
+
+td {
+	height: 30px;
+	vertical-align: bottom-left;
 }
 
 table {
 	border-collapse: collapse;
+	width: 100%;
 }
