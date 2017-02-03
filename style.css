@@ -169,19 +169,11 @@ ol, ul {
 p.list {
 	text-align: left;
 	margin-top: 50px;
+	margin-bot: 0px;
 }
 
-p.list:link {
-	
-}
-p.list:visited {
-	
-}
-p.list:hover {
-	
-}
-p.list:active {
-	
+button {
+	margin:left;
 }
 
 ul.a {
