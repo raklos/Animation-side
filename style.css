@@ -172,8 +172,8 @@ p.list {
 	margin-bot: 0px;
 }
 
-button {
-	margin:left;
+#first {
+	display: none;
 }
 
 ul.a {

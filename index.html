@@ -100,18 +100,22 @@
 			
 				<p class="list">
 					Lists unordered 
-					<button id="first">
+					<button onclick="removeElement()">
 						Look 
+					</button>
+					<button onclick="resetElement()">
+						Hide
 					</button>
 				</p>
 				
-			
+			<div id="first">
 				<ul>
 					<li>Bottle</li>
 					<li>Headphones</li>
 					<li>Bed</li>
 				</ul>
-
+			</div>
+			
 			<!-- List ordered -->
 				
 				<p class="list">Lists ordered</p>
@@ -205,7 +209,14 @@
 	
 	<!-- JavaScript piece -->
 	<script>
-	
+		
+		function removeElement() {		
+		document.getElementById("first").style.display = "block";
+		}
+		
+		function  resetElement() {
+		document.getElementById("first").style.display = "none";
+}
 		
 		
 		
