@@ -146,6 +146,16 @@ button and bar-menu-settings
 .button1 > a {
 	border-left: dashed #ffffff 1px;
 }
+
+/* ################ 
+					Icons 
+	################ */
+
+i {
+	color: white;
+}
+
+
 /* ################ 
 					Lists 
 	################ */
