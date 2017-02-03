@@ -157,6 +157,11 @@ ol, ul {
 	font-size: 150%;	
 }
 
+p.list {
+	text-align: left;
+	margin-top: 50px;
+}
+
 ul.a {
     list-style-type: circle;
 }
