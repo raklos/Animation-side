@@ -163,12 +163,25 @@ ol, ul {
 	color: white;
 	list-style-position: inside;
 	text-indent: 1px; 
-	font-size: 150%;	
+	font-size: 150%;
 }
 
 p.list {
 	text-align: left;
 	margin-top: 50px;
+}
+
+p.list:link {
+	
+}
+p.list:visited {
+	
+}
+p.list:hover {
+	
+}
+p.list:active {
+	
 }
 
 ul.a {
