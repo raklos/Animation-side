@@ -15,6 +15,7 @@ body {
     animation: mymove 10s infinite;
 	margin: auto;
 	margin-bottom: 50px;
+	text
 }
  /* Chrome, Safari, Opera */
 @-webkit-keyframes mymove {
@@ -103,7 +104,7 @@ h1 {
 	test piece for div settings
 	################ */
 .rectangle {
-	height: 100px;
+	height: 150px;
 	width: 50%;
 	background: #006699;
 	margin: auto;
