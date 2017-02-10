@@ -167,15 +167,32 @@ ol, ul {
 	font-size: 150%;
 }
 
+ol {
+	display: none;
+}
+
+ul {
+	display: none;
+}
+
+.ol-list:hover ol {
+	display: inline;
+}
+
+.ul-list:hover ul {
+	display: inline;
+}
+
 p.list {
 	text-align: left;
 	margin-top: 50px;
 	margin-bot: 0px;
 }
-
+/* id potrzebne do działania przycisków przy listach 'look' i 'hide'.
 #first {
 	display: none;
-}
+} 
+*/
 
 ul.a {
     list-style-type: circle;
