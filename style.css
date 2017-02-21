@@ -46,12 +46,15 @@ ul.nav_bar > li a {
 	text-decoration: none;
 }
 
-ul.nav_bar > li a:hover {
+
+ul.nav_bar > li a.active {
+	background-color: #bb00bb;
+	color: white;
+}
+ul.nav_bar > li a:hover:not(.active) {
 	background-color: #888;
 	color: white;
 }
-	
-	
 	
 	
 	
@@ -132,6 +135,7 @@ ul.nav_bar > li a:hover {
 	border-style: solid;
 	width: 994px;
 	margin-bottom: 50px;
+	margin-top: 50px;
 }
 /* ################ 
 	test piece for div settings
