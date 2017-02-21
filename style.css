@@ -31,7 +31,25 @@ h1 {
 bar-menu-settings 
 	################ */
 
-	
+ul.nav_bar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 300px;
+	background-color: #f1f1f1;
+}
+
+ul.nav_bar > li a {
+	display: block;
+	color: #000;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+ul.nav_bar > li a:hover {
+	background-color: #888;
+	color: white;
+}
 	
 	
 	
@@ -48,7 +66,7 @@ bar-menu-settings
     animation: mymove 10s infinite;
 	margin: auto;
 	margin-bottom: 50px;
-	text
+
 }
  /* Chrome, Safari, Opera */
 @-webkit-keyframes mymove {
@@ -145,20 +163,13 @@ ol, ul {
 	font-size: 150%;
 }
 
-ol {
-	display: none;
-}
-
-ul {
-	display: none;
-}
 
 .ol-list:hover ol {
-	display: inline;
+	display: block;
 }
 
 .ul-list:hover ul {
-	display: inline;
+	display: block;
 }
 
 p.list {
@@ -166,11 +177,6 @@ p.list {
 	margin-top: 50px;
 	margin-bot: 0px;
 }
-/* id potrzebne do działania przycisków przy listach 'look' i 'hide'.
-#first {
-	display: none;
-} 
-*/
 
 ul.a {
     list-style-type: circle;
