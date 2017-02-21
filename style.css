@@ -6,7 +6,40 @@ body {
 	margin: 0px;
 }
 
-/* Animation with smiley face */
+/* ################ 
+	main container for all divs
+	################ */
+.container {
+	text-align: center;
+	max-width: 1000px;
+	margin: auto;
+	margin-bottom: 50px;	
+}
+
+/* ################ 
+		Title of homepage
+	################ */
+h1 {
+	margin-bottom: 50px;
+	text-shadow: 2.5px 2.6px black;
+	letter-spacing: 3px;
+	word-spacing: 5px;
+	font-variant: small-caps;
+}
+
+/* ################ 
+bar-menu-settings 
+	################ */
+
+	
+	
+	
+	
+	
+	
+/* ################
+	Animation with smiley face
+	################ */
 #myDIV {
 	width: 50px;
     height: 100px;
@@ -34,25 +67,7 @@ body {
 	75% {background: #ff99e6 url('smiley.gif') no-repeat bottom right/50px 50px; width: 400px;}
 	100% {background: #b30086 url('smiley.gif') no-repeat top left/50px 50px; top: 0px; width: 50px;}
 }
-/* ################ 
-		Title of homepage
-	################ */
-h1 {
-	margin-bottom: 50px;
-	text-shadow: 2.5px 2.6px black;
-	letter-spacing: 3px;
-	word-spacing: 5px;
-	font-variant: small-caps;
-}
-/* ################ 
-	main container for all divs
-	################ */
-.container {
-	text-align: center;
-	max-width: 1000px;
-	margin: auto;
-	margin-bottom: 50px;	
-}
+
 /* ################ 
 		First design border
 	################ */
@@ -109,43 +124,6 @@ h1 {
 	background: #006699;
 	margin: auto;
 	margin-bottom: 50px;
-}
-/* ################ 
-button and bar-menu-settings 
-	################ */
-.button {
-	margin-bottom: 50px;
-}
-
-.button > a:link {
-	background: #00aadd;
-	width: 198px;
-	float: left;
-	display: block;
-	line-height: 200%;
-	border-right: dashed #ffffff 1px;
-	text-decoration: none;
-	color: #000000;
-	margin-bottom: 50px;
-}
-
-.button > a:visited {
-	background: #006699;
-	color: white;
-}
-
-.button > a:hover {
-	background: #ffffff;
-	color: #aa0000;
-}
-
-.button > a:active {
-	background: #dddddd;
-	color: black;
-}
-
-.button1 > a {
-	border-left: dashed #ffffff 1px;
 }
 
 /* ################ 
