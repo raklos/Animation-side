@@ -12,8 +12,9 @@ body {
 .container {
 	text-align: center;
 	max-width: 1000px;
-	margin: auto;
-	margin-bottom: 50px;	
+	margin-left: 17%;
+	padding:1px 16px;
+		
 }
 
 /* ################ 
@@ -35,8 +36,22 @@ ul.nav_bar {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	width: 300px;
+	width: 200px;
 	background-color: #f1f1f1;
+	border: 3px solid #bb00bb;
+	height: 100%;
+	position: fixed;
+	overflow: auto;
+	font-size: 100%;
+}
+
+ul.nav_bar > li {
+	text-align: center;
+	border-bottom: 1px solid #bb00bb;
+}
+
+ul.nav_bar > li:last-child {
+	border-bottom: none;
 }
 
 ul.nav_bar > li a {
