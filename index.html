@@ -19,6 +19,8 @@
 	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	
+	<script src="script.js"></script> <!-- linia nie działa, miała podpina plik .js -->
+	
 
 </head>
 
@@ -39,13 +41,21 @@
 			 <h1>Hi dude, Welcome to the Eest Animation in this World!</h1>
 			
 			
-			<!-- home_bar piece -->			
-				
-			
-				
-				<div class="selector"></div>
-		
 	
+		<!-- JS -->
+		
+			<!-- egzample -->
+				<button type="button"
+				onclick="document.getElementById('demo').innerHTML = Date()">
+				Click me to display Date and Time.</button>
+				
+				<p id="demo"></p>
+				
+				<button type="button" onclick="console.log('aa')">XD</button>
+			
+			
+				<div class="selector"></div>
+			
 		<!-- animation piece -->						
 			
 			<div id="myDIV"></div>						
