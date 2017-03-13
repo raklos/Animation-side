@@ -5,7 +5,7 @@
 	
 	
 	
-//odświerzanie zegarka na stronie
+//	ZEGAREK
 	
 	function myClock(){
 	
@@ -55,8 +55,21 @@
 		if(godzina<10) godzina="0"+godzina;
 		if(minuta<10) minuta="0"+minuta;
 		if(sekunda<10) sekunda="0"+sekunda;
-		//if(milisekunda<10) milisekunda="00"+milisekunda;
-		else if(milisekunda<100) milisekunda="0"+milisekunda;		
+		milisekunda-=(milisekunda%=100);
+	// zmiana milisekundy z jednej tysięcznej do jednej dziesiątej 
+		switch(milisekunda){
+			case 100: milisekunda="1"; break;
+			case 200: milisekunda="2"; break;
+			case 300: milisekunda="3"; break;
+			case 400: milisekunda="4"; break;
+			case 500: milisekunda="5"; break;
+			case 600: milisekunda="6"; break;
+			case 700: milisekunda="7"; break;
+			case 800: milisekunda="8"; break;
+			case 900: milisekunda="9"; break;
+			default: break;
+		}
+		
 		
 	//sklejenie wszystkich pojemników przechowujących czas w tekst
 		
@@ -66,5 +79,23 @@
 		setTimeout("myClock()",3);
 		
 	}
+	
+// SPRAWDZENIE jaka to liczbak
+function sprawdz() {
+	//pobranie wartości z pola edycyjnego
+		var liczba=document.getElementById('pole1').value;
+	
+	
+	//Podjęcie decyzji jaka to liczba i wyświetlenie odpowiedzi w przeglądarce
+	
+		if (liczba>0) document.getElementById("odp").innerHTML="dodatmoa";
+		else if (liczba<0) document.getElementById("odp").innerHTML="ujemna";
+		else if (liczba=="0") document.getElementById("odp").innerHTML="zero";
+		else  document.getElementById("odp").innerHTML="to nie jest liczba";
+	
+	//
+
+	
+}
 	
 	
